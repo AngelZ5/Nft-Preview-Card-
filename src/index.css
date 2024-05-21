@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a192f;
+}
+
+body {
+  display: flex;
+}
+
+.card {
+  background-color: #14263d;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  max-width: 300px;
+  color: white;
+  font-family: "Outfit";
+  text-align: center;
+}
+
+.image-equilibrium {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 10px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+h1:hover {
+  color: #35f0f5;
+  cursor: pointer;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  text-align: left;
+  color: #869dbc;
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.price {
+  color: #00ffab;
+  font-weight: bold;
+  list-style-image: url("./assets/images/icon-ethereum.svg");
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+.time {
+  color: #7890b2;
+  list-style-image: url("./assets/images/icon-clock.svg");
+  list-style-position: inside;
+  padding-left: 20px;
+  margin-top: 3px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #2a415f;
+  margin: 20px 0;
+}
+
+.profile {
+  padding: 5px;
+}
+.profile p {
+  display: inline;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.profile-picture {
+  border: 1px solid white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  margin-left: -100px;
+}
+
+span {
+  font-weight: 400;
+  color: white;
+  transition: 0.3s;
+}
+
+span:hover {
+  color: #35f0f5;
+  cursor: pointer;
+}
